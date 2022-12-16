@@ -10,3 +10,20 @@ body{
 .nav-bg{
     background-color: rgb(174, 212, 192);
 }
+
+section{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+ 
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fe8a8a;
+    text-align: left;
+    margin-bottom: 20px;
+} 
+
+.btn{
+    background-color:  rgb(174, 212, 192);
+}
