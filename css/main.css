@@ -46,6 +46,12 @@ h4{
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
-    position: absolute;
     bottom: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+#contact{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
