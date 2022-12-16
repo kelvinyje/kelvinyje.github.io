@@ -32,3 +32,20 @@ section h1{
     position: absolute;
     transform: translateY(-50vh);
 }
+
+h4{
+    color: #fe8a8a;
+}
+
+.help{
+    background-color: rgb(174, 212, 192);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
