@@ -55,3 +55,8 @@ h4{
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+
+.carousel-control-next,
+.carousel-control-prev , .carousel-indicators{
+    filter: invert(100%);
+}
