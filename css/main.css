@@ -27,3 +27,8 @@ section h1{
 .btn{
     background-color:  rgb(174, 212, 192);
 }
+
+.anchor{
+    position: absolute;
+    transform: translateY(-50vh);
+}
