@@ -11,16 +11,32 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+    <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light nav-bg p-0 sticky-top">
         <div class="container-fluid navbar-class ">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand mx-1" href="index.html">
                 <img src="images/hc1.png" style="width: 150px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Disorders
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#1">Binge-eating disorder</a></li>
+                        <li><a class="dropdown-item" href="#2">Anorexia nervosa</a></li>
+                        <li><a class="dropdown-item" href="#3">Bulimia nervosa</a></li>
+                        <li><a class="dropdown-item" href="#4">Avoidant restrictive food intake disorder (ARFID)
+                        </a></li>
+                        <li><a class="dropdown-item" href="#5">Orthorexia Nervosa</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
@@ -28,28 +44,16 @@
                     <a class="nav-link active" aria-current="page" href="types.html">Types of Eating Disorders</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="signs.html">Signs of an Eating Disorder</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link active" href="help.html">How to help</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Disorders
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#1">Binge-eating disorder</a></li>
-                    <li><a class="dropdown-item" href="#2">Anorexia nervosa</a></li>
-                    <li><a class="dropdown-item" href="#3">Bulimia nervosa</a></li>
-                    <li><a class="dropdown-item" href="#4">Avoidant restrictive food intake disorder (ARFID)
-                    </a></li>
-                    <li><a class="dropdown-item" href="#5">Orthorexia Nervosa</a></li>
-                    </ul>
-                </li>
+                <li class="nav-item px-2">
+                   
+                </ul>
                 </ul>
             </div>
         </div>
     </nav>
+    <!--used grid-->
     <div class="container text-center">
         <div class="row ">
           <div class="col">
@@ -58,9 +62,11 @@
         </div>
         <div class="row align-items-center mt-5" id="">
             <span class="anchor" id="1"></span>
+            <!---->
             <div class="col-md-7 order-md-first order-last">
                 <h3>Binge-eating disorder</h3>
                 <p>Binging excessively with periods of uncontrolled, impulsive and continuous eating to the point of being uncomfortably full, with no compensatory behaviour (purging) after</p>
+                <!--buttons linking to the modals and websites-->
                 <a href="https://www.mayoclinic.org/diseases-conditions/binge-eating-disorder/symptoms-causes/syc-20353627" target="_blank" class="btn btn-light">Learn more</a>
 
                 <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#binge">See the signs</button>
@@ -69,7 +75,7 @@
                 <img style="height:300px"src="images/food.png">
             </div>
         </div>
-
+        <!--same thing but picture and text are flipped-->
         <div class="row align-items-center mt-5" id="">
             <span class="anchor" id="2"></span>
             <div class="col-md-5">
@@ -131,7 +137,6 @@
       </div>
 
       <!-- MODALS -->
-      <!-- BINGE -->
       <div class="modal fade" id="binge" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -150,6 +155,7 @@
             </div>
         </div>
       </div>
+
       <div class="modal fade" id="anorexia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -186,6 +192,7 @@
             </div>
         </div>
     </div>
+
     <div class="modal fade" id="arfid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -205,6 +212,7 @@
             </div>
         </div>
     </div>
+    
     <div class="modal fade" id="orthorexia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">

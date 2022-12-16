@@ -8,7 +8,7 @@ body{
 }
 
 .nav-bg{
-    background-color: rgb(174, 212, 192);
+    background: linear-gradient(rgb(151, 214, 182), rgba(172, 199, 185, 0.386));
 }
 
 section{
